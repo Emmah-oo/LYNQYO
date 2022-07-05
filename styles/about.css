@@ -1,0 +1,28 @@
+body {
+    background: #F3F5F9;
+}
+
+.about-us {
+    background: #F3F5F9;
+    text-align: center;
+}
+
+.about-us h1 {
+    margin-bottom: 1rem;
+    color: #0000FF;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.about-us img {
+    width: 100%;
+}
+
+.about-us p {
+    margin: 1.5rem 0;
+    color: #01001F;
+    font-weight: 600;
+    font-size: 20px;
+}
+

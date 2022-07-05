@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* img {
+    width: 100%;
+} */
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.countdown {
+    background: #0000FF;
+}
+
+.countdown .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.countdown h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.countdown p {
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+}
+
+header {
+    background: #F3F5F9;
+}
+
+header .logo {
+    margin-right: auto;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    padding: 2rem 4rem;
+    justify-content: flex-end;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #767586;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.web3 {
+    text-align: center;
+    padding: 4rem 0;
+    background: #F3F5F9;
+}
+
+.web3 .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.web3 h1 {
+    color: #0000FF;
+    font-weight: 800;
+    font-size: 37px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.web3 p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #3B3B53;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.web3 .btn {
+    box-shadow: 0px 10px 40px 0px #7E7EFFCC;
+    background: #0000FF;
+    padding: 20px 40px;
+    color: #fff;
+    font-family: inherit;
+    border: 0;
+    border-radius: 8px;
+    margin-bottom: 4rem;
+}
+
+.web3 img {
+    width: 80%;
+}
+
+footer {
+    padding: 6rem 4rem;
+    background: #fff
+  }
+  
+  footer .footer-container .row-1 {
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px; */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer .footer-container .row-1 .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  
+  footer .grid {
+    display: grid;
+    gap: 100px;
+  }
+  
+  footer .row-2-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer .row-2-container .socials {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer h1 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #0000FF;
+    margin-bottom: 0.5rem;
+  }
+  
+  footer .footer-links a {
+    color: #3B3B53;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  
+  footer .footer-links a {
+    list-style: none;
+  }
+  
+  .link-1 li,
+  .link-2 li {
+    line-height: 40px;
+    list-style: none;
+    color: #fff;
+  }
+
+  .link-1 p {
+    color: #0000FF;
+  }
+  
+  
+  footer .subscribe .input {
+    width: 260px;
+    height: 52px;
+    border-radius: 8px;
+    padding: 24px;
+    outline: none;
+    border: 0;
+    background: #F3F5F9;
+  }
+  
+  footer .subscribe .btn {
+    padding: 18.5px 56px;
+    border: 0;
+    margin-left: -2rem;
+    border-radius: 8px;
+    background: #0000FF;
+    box-shadow: 0px 10px 40px 0px #7E7EFFCC;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .row-2-container {
+    margin-top: 2rem;
+  }
+  
+  .row-2-container .copyright h4 {
+    color: #767586;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .row-2-container .socials h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0000FF;
+  }
+  
+  .row-2-container .socials img {
+    cursor: pointer;
+  }
+  
+  select {
+    padding: .2rem .3rem;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  option {
+    cursor: pointer;
+  }
