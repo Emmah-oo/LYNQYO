@@ -1,0 +1,58 @@
+body {
+    background-color: #F3F5F9;
+}
+
+.founders {
+    padding: 3rem 0;
+}
+
+.founders h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #0000FF;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.founders-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.founders-grid h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #0000FF;
+    max-width: 200px;
+    text-transform: uppercase;
+    margin-bottom: 0 !important;
+}
+
+.founders-grid p {
+    font-size: 25px;
+    font-weight: 600;
+    color: #3B3B53;
+}
+
+.heart {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart h4 {
+    color: #767586;
+    font-size: 16px;
+    font-weight: 400;
+}

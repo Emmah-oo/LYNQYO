@@ -1,0 +1,186 @@
+.tokenomics {
+    background-color: #F3F5F9;
+    padding: 4rem 0;
+    background-image: url("/img/tokenomics-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom -20vh right;
+}
+
+.tokenomics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+} 
+
+.card {
+    background-color: #fff;
+    padding: 3rem 5rem;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.card h1 {
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #0000FF;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #3B3B53;
+}
+
+.card-1 {
+    display: flex !important; 
+    flex-direction: column !important;
+    gap: 25px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: transparent !important;
+    padding: 2rem !important;
+}
+
+.card-1 h1 {
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card-1 p {
+    text-align: center;
+}
+
+.card .btn {
+    color: #767586;
+    border: 2px solid #767586;
+    padding: 22px 44px;
+    background-color: transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.token {
+    padding: 4rem 0;
+}
+
+.token h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #0000FF;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.token .table > div {
+    padding: 1rem;
+    text-align: start;
+}
+
+.token-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.token .table {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-top: 2px solid #0000FF;
+    border-right: 2px solid #0000FF;
+    border-bottom: 2px solid #0000FF;
+    border-radius: 8px;
+}
+
+.color {
+    background-color: #0000FF;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.border-1 {
+    border-top-left-radius: 8px;
+}
+
+.border-2 {
+    border-bottom-left-radius: 8px;
+}
+
+.chart {
+    width: 100%;
+}
+
+.chart img {
+    width: 100%;
+}
+
+.col-2 {
+    padding: 1rem 2rem !important;
+    text-align: center;
+    border-bottom: 1px solid #0000FF;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3B3B53;
+}
+
+.presale {
+    background-color: #F3F5F9;
+    padding: 4rem 0;
+}
+
+.presale h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #0000FF;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.presale .table {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 2fr 1fr;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.presale .head {
+    background-color: #0000FF;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.presale .table > div {
+    padding: 1rem;
+    text-align: center;
+    border-right: 1px solid #3B3B53;
+}
+
+.head-1 {
+    border-top-left-radius: 8px;
+}
+
+.head-5 {
+    border-top-right-radius: 8px;
+    border-right: 0 !important;
+}
+
+.table-body {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3B3B53;
+}
+
+.no-border {
+    border-right: 0 !important;
+}
