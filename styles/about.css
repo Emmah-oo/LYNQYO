@@ -5,6 +5,7 @@ body {
 .about-us {
     background: #F3F5F9;
     text-align: center;
+    padding-top: 8rem;
 }
 
 .about-us h1 {
@@ -26,3 +27,21 @@ body {
     font-size: 20px;
 }
 
+@media (max-width: 1000px) {
+    .about-us {
+        padding-top: 5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-us h1 {
+        font-size: 19px;
+        font-weight: 800;
+    }
+
+    .about-us p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+}

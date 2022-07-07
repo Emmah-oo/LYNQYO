@@ -3,7 +3,7 @@ body {
 }
 
 .protocol {
-    padding: 4rem 0;
+    padding-top: 8rem;
 }
 
 .protocol .grid {
@@ -43,5 +43,54 @@ body {
 }
 
 .protocol-img img {
-    width: 80%;
+    width: 100%;
+}
+
+.hide-desktop {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .protocol .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .protocol-img {
+        order: -1;
+    }
+}
+
+@media (max-width: 600px) {
+    .protocol {
+        padding-top: 6rem;
+    }
+
+    .hide-mb {
+        display: none;
+    }
+
+    .hide-desktop {
+        display: block;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 40px;
+        color: #0000FF;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+
+    .protocol-text {
+        text-align: center;
+    }
+
+    .protocol-text .btn {
+        align-self: center;
+    }
+
+    .protocol-text p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
 }

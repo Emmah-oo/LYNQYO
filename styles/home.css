@@ -545,15 +545,16 @@
     .tab {
         font-size: 14px;
     }
+
+    .btn-1 {
+        display: none;
+    }
+
 }
 
 @media (max-width: 400px) {
     .cards {
         grid-template-columns: 1fr;
-    }
-
-    .btn-1 {
-        display: none;
     }
 
     .tabs {

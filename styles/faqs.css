@@ -2,6 +2,10 @@ body {
     background: #F3F5F9;
 }
 
+.faqs {
+    padding-top: 10rem;
+}
+
 .faqs h1 {
     color: #0000FF;
     font-size: 30px;
@@ -81,6 +85,8 @@ body {
     margin: 1rem 0;
     font-weight: 400;
     font-size: 18px;
+    color: #3B3B53 !important;
+    font-size: 14px;
 }
 
 .public-faqs h1 {
@@ -90,4 +96,40 @@ body {
     text-align: center;
     text-transform: uppercase;
     text-align: center;
+}
+
+
+@media (max-width: 1000px) {
+    .faqs {
+        padding-top: 5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .acc-btn {
+        font-size: 16px;
+        padding: 1.6rem 0;
+    }
+
+    .acc-content p {
+        font-size: 14px;
+    }
+
+    .acc-container {
+        padding: 1rem 0;
+    }
+
+    .faqs {
+        padding-top: 7rem;
+    }
+
+    .faqs h1, .public-faqs h1 {
+        font-size: 19px;
+        font-weight: 800;
+        line-height: 19px;
+    }
+
+    .card {
+        min-height: 15rem;
+    }
 }

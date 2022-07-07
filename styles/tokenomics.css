@@ -1,6 +1,7 @@
 .tokenomics {
     background-color: #F3F5F9;
-    padding: 4rem 0;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
     background-image: url("/img/tokenomics-bg.png");
     background-repeat: no-repeat;
     background-position: bottom -20vh right;
@@ -183,4 +184,100 @@
 
 .no-border {
     border-right: 0 !important;
+}
+
+.stages {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .card-1 {
+        padding: 1.5rem !important;
+    }
+
+    .card {
+        padding: 1.5rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tokenomics {
+        padding-top: 5rem;
+    }
+
+    .tokenomics-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+    .token-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .presale .table {
+        display: none !important;
+    }
+
+    .stages {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .stage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 1px solid #0000FF;
+        border-radius: 8px;
+    }
+
+    .stage > div {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .stage-body {
+        border-bottom: 1px solid #0000FF;
+    }
+
+    .bdr-none {
+        border: 0;
+    }
+
+    .head-2 {
+        border-bottom-left-radius: 8px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card-1 h1 {
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .card p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .card {
+        gap: 20px;
+    }
+
+    .token h1, .presale h1 {
+        font-size: 19px;
+    }
+
+    .token-grid {
+        gap: 30px;
+    }
 }
