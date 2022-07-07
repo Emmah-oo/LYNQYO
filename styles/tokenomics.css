@@ -1,3 +1,20 @@
+.nav-links .tokenomic {
+    position: relative;
+    color: #0000FF;
+}
+
+.nav-links .tokenomic::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 120%;
+    height: 2px;
+    transform: translateX(-50%);
+    background: #0000FF;
+    transition: ease-in 0.3s;
+}
+
 .tokenomics {
     background-color: #F3F5F9;
     padding-top: 10rem;
@@ -24,7 +41,7 @@
 }
 
 .card h1 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 800;
     text-transform: uppercase;
     color: #0000FF;
@@ -48,10 +65,10 @@
 }
 
 .card-1 h1 {
-    max-width: 400px;
+    max-width: 800px;
     text-align: center;
     margin: 0 auto;
-    font-family:  'Akira Expanded';
+    font-family: myFont;
 }
 
 .card-1 p {
@@ -90,6 +107,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
+    gap: 30px;
 }
 
 .token .table {
@@ -157,9 +175,10 @@
 .presale .head {
     background-color: #0000FF;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 800;
     color: #fff;
+    font-family: myFont;
 }
 
 .presale .table > div {

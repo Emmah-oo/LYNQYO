@@ -2,6 +2,23 @@ body {
     background-color: #F3F5F9;
 }
 
+.nav-links .teams {
+    position: relative;
+    color: #0000FF;
+}
+
+.nav-links .teams::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 120%;
+    height: 2px;
+    transform: translateX(-50%);
+    background: #0000FF;
+    transition: ease-in 0.3s;
+}
+
 .founders {
     padding-top: 10rem;
 }
@@ -45,7 +62,7 @@ body {
 }
 
 .founders-grid p {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
     color: #3B3B53;
 }
@@ -78,9 +95,10 @@ body {
 
 @media (max-width: 600px) {
     .founders h1 {
-        max-width: 200px;
+        max-width: 400px;
         margin: 0 auto;
         padding-bottom: 1.5rem;
+        font-size: 25px;
     }
     .founders-grid h1 {
         font-size: 19px;

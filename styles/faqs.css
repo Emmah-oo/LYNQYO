@@ -2,6 +2,23 @@ body {
     background: #F3F5F9;
 }
 
+.nav-links .faq {
+    position: relative;
+    color: #0000FF;
+}
+
+.nav-links .faq::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 120%;
+    height: 2px;
+    transform: translateX(-50%);
+    background: #0000FF;
+    transition: ease-in 0.3s;
+}
+
 .faqs {
     padding-top: 10rem;
 }
