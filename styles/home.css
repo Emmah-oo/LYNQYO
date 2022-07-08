@@ -182,7 +182,7 @@ body {
 }
 
 .content-img img {
-    width: 90%;
+    width: 100%;
 }
 
 .content-text {
@@ -198,6 +198,10 @@ body {
     font-size: 24px;
     color: #0000FF;
     margin: 2rem 0;
+}
+
+.mb-img {
+    display: none;
 }
 
 .cards {
@@ -559,6 +563,14 @@ body {
         display: none;
     }
 
+    .mb-img {
+        display: block;
+        width: 100%;
+    }
+
+    .dk-img {
+        display: none;
+    }
 }
 
 @media (max-width: 400px) {
