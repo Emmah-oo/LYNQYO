@@ -491,7 +491,11 @@ body {
 
 @media (max-width: 600px) {
     .content-text {
-        padding: 1rem;
+        padding: .5rem;
+    }
+
+    .card {
+        padding: 14px 14px;
     }
 
     /* .content-img {
