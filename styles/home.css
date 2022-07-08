@@ -178,10 +178,11 @@ body {
 
 .content-img {
     width: 100%;
+    text-align: center;
 }
 
 .content-img img {
-    width: 100%;
+    width: 90%;
 }
 
 .content-text {
