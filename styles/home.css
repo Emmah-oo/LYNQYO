@@ -124,10 +124,14 @@ body {
 
 [data-tab-content] {
     display: none;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .active[data-tab-content] {
     display: block;
+    width: 90%;
+    margin: 0 auto;
 }
 
 
@@ -488,6 +492,11 @@ body {
 @media (max-width: 600px) {
     .content-text {
         padding: 1rem;
+    }
+
+    .tab-content {
+        width: 90%;
+        margin: 0 auto;
     }
 
     /* .content-img {
