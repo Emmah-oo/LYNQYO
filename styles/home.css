@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .showcase {
     background: #F3F5F9;
     padding-top: 14rem;
