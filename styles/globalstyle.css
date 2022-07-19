@@ -14,9 +14,34 @@ h1 {
     box-sizing: border-box;
 }
 
-/* img {
-    width: 100%;
-} */
+.goog-te-gadget .goog-te-combo  {
+  border: 1px solid #000;
+  outline: 0;
+  background-color: transparent;
+  color: #000;
+  cursor: pointer;
+}
+
+.goog-logo-link {
+  display:none !important;
+} 
+  
+.goog-te-gadget{
+  color: transparent !important;
+}
+
+#google_translate_element{display:block}
+.goog-te-banner-frame.skiptranslate { display: none !important;} 
+body { top: 0px !important; }
+#goog-gt-tt{display: none !important; top: 0px !important; } 
+.goog-tooltip skiptranslate{display: none !important; top: 0px !important; } 
+.activity-root { display: hide !important;} 
+.status-message { display: hide !important;}
+.started-activity-container { display: hide !important;}
+
+option {
+  background-color: #fff;
+}
 
 button {
     cursor: pointer;

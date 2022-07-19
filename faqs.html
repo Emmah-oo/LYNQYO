@@ -316,16 +316,7 @@
             </div>
             <div class="language">
               <h1>LANGUAGE</h1>
-              <select name="language" id="language">
-                <option value="eng">English</option>
-                <option value="spa">Spanish</option>
-                <option value="frn">French</option>
-                <option value="det">Deutsch</option>
-                <option value="ita">Italian</option>
-                <option value="por">Portugese</option>
-                <option value="chn">Chinese</option>
-                <option value="lat">Latin</option>
-              </select>
+              <div id="google_translate_element"></div>
             </div>
             <div class="links">
               <h1>LINKS</h1>
@@ -379,6 +370,16 @@
           </div>
         </div>
     </footer>
+
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                includedLanguages: 'tr,de,fr,es,en,it',
+                layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+            }, 'google_translate_element');
+        }
+    </script>
     <script src="app.js"></script>
     <script src="faq.js"></script>
 </body>
