@@ -283,7 +283,6 @@ footer {
   footer .subscribe .btn {
     padding: 18.5px 56px;
     border: 0;
-    margin-left: -2rem;
     border-radius: 8px;
     background: #0000FF;
     box-shadow: 0px 10px 40px 0px #7E7EFFCC;
@@ -361,7 +360,7 @@ footer {
 
   nav {
     top: 0;
-    height: 9vh;
+    height: 6vh;
     margin-top: 0;
   }
 
@@ -391,7 +390,7 @@ footer {
     display: block;
     position: fixed;
     z-index: 1;
-   right: 5%;
+    right: 5%;
   }
 
   header .logo {
@@ -417,8 +416,7 @@ footer {
 
   .language {
     display: flex;
-    
-    align-items: center;
+    align-items: baseline;
   }
 
   .language img {

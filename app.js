@@ -43,7 +43,7 @@ burger.addEventListener("click", () => {
     mm = String(today.getMonth() + 1).padStart(2, "0"),
     yyyy = today.getFullYear(),
     nextYear = yyyy + 1,
-    dayMonth = "07/20/",
+    dayMonth = "09/20/",
     launchDay = dayMonth + yyyy;
 
   today = mm + "/" + dd + "/" + yyyy;

@@ -82,7 +82,7 @@ body {
 
 @media (max-width: 700px) {
     .founders {
-        padding-top: 5rem;
+        padding-top: 7rem;
     }
     .founders-grid {
         grid-template-columns: 1fr;
