@@ -91,6 +91,10 @@ header {
     background: #F3F5F9;
 }
 
+header img {
+  width: 80%;
+}
+
 header .logo {
     margin-right: auto;
 }
