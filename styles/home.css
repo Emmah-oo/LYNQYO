@@ -68,7 +68,7 @@ body {
 }
 
 .showcase-img {
-    width: 100%;
+    width: 85%;
 }
 
 .showcase-img img {
@@ -117,10 +117,11 @@ body {
     width: 75%;
     margin: 0 auto;
     margin-top: 2rem;
+    text-align: center;
 }
 
 .networks img {
-    width: 100%;
+    width: 80%;
 }
 
 .tabbed-section {
@@ -162,7 +163,7 @@ body {
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     color: #C0BFC7;
     width: 100%;
 }
@@ -229,7 +230,6 @@ body {
 
 .card img {
     margin: 1rem 0;
-    width: 20%;
 }
 
 .card h2 {
@@ -503,6 +503,8 @@ body {
 
     .img-2 {
         display: block;
+        /* width: 50% !important; */
+        margin: 0 auto;
     }
 
     .img-1 {

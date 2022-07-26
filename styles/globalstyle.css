@@ -266,6 +266,10 @@ footer {
     line-height: 24px;
     text-decoration: none;
   }
+
+  .logo img {
+    width: 80%;
+  }
   
   footer .footer-links a {
     list-style: none;
