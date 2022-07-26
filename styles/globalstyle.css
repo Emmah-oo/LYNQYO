@@ -4,6 +4,16 @@
   src: url(/Akira-Expanded-Demo.otf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  font-family: inherit !important;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
 h1 {
   font-family: myFont;
 }
@@ -197,7 +207,7 @@ nav {
 }
 
 .web3 img {
-    width: 80%;
+    width: 60%;
 }
 
 footer {

@@ -40,6 +40,10 @@
     align-items: flex-start;
 }
 
+.card img {
+    width: 20%;
+}
+
 .card h1 {
     font-size: 28px;
     font-weight: 800;

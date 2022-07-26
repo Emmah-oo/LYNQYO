@@ -86,6 +86,7 @@ body {
 .details {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 .info h1 {
@@ -228,6 +229,7 @@ body {
 
 .card img {
     margin: 1rem 0;
+    width: 20%;
 }
 
 .card h2 {
@@ -378,7 +380,7 @@ body {
 }
 
 .as-seen-on img {
-    width: 100%;
+    width: 70%;
 }
 
 .img-2 {
