@@ -17,7 +17,7 @@ tabs.forEach(tab => {
 
 const navbar = document.querySelector("nav");
 window.onscroll = () => {
-  if (window.scrollY > 50) {
+  if (window.scrollY > 3) {
     navbar.classList.add("scrolled");
   } else {
     navbar.classList.remove("scrolled");

@@ -1,0 +1,35 @@
+
+
+.waiting-list img {
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.waiting-list .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 0px !important;
+}
+
+.avatar-2 {
+    margin-left: -1vw;
+}
+
+.avatar-3 {
+    margin-left: -1vw;
+}
+
+.avatar-4 {
+    margin-left: -1vw;
+}
+
+.waiting-list p {
+    margin-top: .4rem !important;
+}
+
+@media (max-width: 600px) {
+.showcase {
+    padding-top: 2rem !important;
+}
+}

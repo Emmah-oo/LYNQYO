@@ -1,0 +1,152 @@
+body {
+    background: #F3F5F9;
+}
+
+.nav-links .faq {
+    position: relative;
+    color: #0000FF;
+}
+
+.nav-links .faq::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 120%;
+    height: 2px;
+    transform: translateX(-50%);
+    background: #0000FF;
+    transition: ease-in 0.3s;
+}
+
+.faqs {
+    padding-top: 10rem;
+}
+
+.faqs h1 {
+    color: #0000FF;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.card {
+    color: #333;
+    margin: 0rem auto;
+    width: 90%;
+    max-width: 1200px;
+    min-height: 30rem;
+    border-radius: 2rem;
+}
+
+.acc-container {
+    padding: 4rem 2rem;
+}
+
+.acc-btn {
+    width: 100%;
+    padding: 1.6rem 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    background: inherit;
+    color: #3B3B53;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    text-align: left;
+    transition: all 0.5s linear;
+}
+
+.acc-btn:after {
+    content: "\003E";
+    color: #0000FF;
+    float: right;
+    transition: all 0.3s linear;
+}
+
+.acc-content p {
+    margin-left: -1rem;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 1rem 0;
+}
+
+.acc-btn.is-open:after {
+    transform: rotate(90deg);
+}
+
+.acc-btn:hover, .acc-btn.is-open {
+    color: #0000FF;
+}
+
+.acc-content {
+    max-height: 0;
+    color: rgba(0,0,0,0.75);
+    font-size: 1.5rem;
+    margin: 0 2rem;
+    padding-left: 1rem;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    /* border-bottom: 2px solid #0000FF; */
+}
+
+.acc-content ol {
+    margin-left: 1rem;
+}
+
+.acc-content ol li {
+    margin: 1rem 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #3B3B53 !important;
+    font-size: 14px;
+}
+
+.public-faqs h1 {
+    color: #0000FF;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+@media (max-width: 1000px) {
+    .faqs {
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .acc-btn {
+        font-size: 16px;
+        padding: 1.6rem 0;
+    }
+
+    .acc-content p {
+        font-size: 14px;
+    }
+
+    .acc-container {
+        padding: 1rem 0;
+    }
+
+    .faqs {
+        padding-top: 3rem;
+    }
+
+    .faqs h1, .public-faqs h1 {
+        font-size: 19px;
+        font-weight: 800;
+        line-height: 19px;
+    }
+
+    .card {
+        min-height: 15rem;
+    }
+}

@@ -1,0 +1,121 @@
+body {
+    background-color: #F3F5F9;
+}
+
+.nav-links .teams {
+    position: relative;
+    color: #0000FF;
+}
+
+.nav-links .teams::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 120%;
+    height: 2px;
+    transform: translateX(-50%);
+    background: #0000FF;
+    transition: ease-in 0.3s;
+}
+
+.founders {
+    padding-top: 10rem;
+}
+
+.founders h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #0000FF;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.founders-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.card img {
+    width: 60%;
+}
+
+.founders-grid h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #0000FF;
+    text-transform: uppercase;
+    margin-bottom: 0 !important;
+}
+
+.founders-grid p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3B3B53;
+}
+
+.heart {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart h4 {
+    color: #767586;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (max-width: 700px) {
+    .founders {
+        padding-top: 3rem;
+    }
+    .founders-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .founders h1 {
+        max-width: 400px;
+        margin: 0 auto;
+        padding-bottom: 1.5rem;
+        font-size: 25px;
+    }
+    .founders-grid h1 {
+        font-size: 19px;
+        line-height: 21px;
+        padding-bottom: 0 !important;
+    }
+
+    .founders-grid p {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .card {
+        gap: 9px;
+    }
+
+    .founders-grid {
+        gap: 35px;
+    }
+}
